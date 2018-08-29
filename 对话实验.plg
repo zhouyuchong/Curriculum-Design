@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 对话实验 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/对话实验.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\16204\Desktop\课程设计\宿舍管理系统\对话实验.rc"" 
+Creating temporary file "C:\Users\16204\AppData\Local\Temp\RSP41B5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/对话实验.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\Admenu.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\InforWrite.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\Login.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\ManagSearch.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\StuMod.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\StuSearch.cpp"
+"C:\Users\16204\Desktop\课程设计\宿舍管理系统\Warning.cpp"
+]
+Creating command line "cl.exe @C:\Users\16204\AppData\Local\Temp\RSP41B5.tmp" 
+Creating temporary file "C:\Users\16204\AppData\Local\Temp\RSP41C6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/对话实验.pdb" /debug /machine:I386 /out:"Debug/对话实验.exe" /pdbtype:sept 
+".\Debug\Admenu.obj"
+".\Debug\InforWrite.obj"
+".\Debug\Login.obj"
+".\Debug\LoginStu.obj"
+".\Debug\ManagSearch.obj"
+".\Debug\ModKey.obj"
+".\Debug\Money.obj"
+".\Debug\SearchDom.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StuManagSearch.obj"
+".\Debug\Stumenu.obj"
+".\Debug\StuMod.obj"
+".\Debug\StuSearch.obj"
+".\Debug\Warning.obj"
+".\Debug\对话实验.obj"
+".\Debug\对话实验Dlg.obj"
+".\Debug\对话实验.res"
+]
+Creating command line "link.exe @C:\Users\16204\AppData\Local\Temp\RSP41C6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Admenu.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+InforWrite.cpp
+Login.cpp
+ManagSearch.cpp
+StuMod.cpp
+StuSearch.cpp
+Warning.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+对话实验.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
